@@ -1,0 +1,370 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    background-color: #f8f8f8;
+    margin: 10px;
+}
+
+header {
+    background-color: #333;
+    padding: 5px 5px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.myText {
+    margin: 0;
+    color: white;
+    font-size: 15px;
+}
+
+#userName,
+#jobtitle {
+    padding: 5px 0;
+}
+
+#userName {
+    font-size: medium;
+}
+
+nav {
+    float: right;
+    width: max-content;
+    text-align: center;
+    margin: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #4d4747;
+}
+
+.content {
+    margin: 10px;
+}
+
+.row {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.block {
+    float: left;
+    width: 48%;
+    background-color: #cdcde763;
+    margin-right: 2%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.block2 {
+    float: left;
+    width: 50%;
+    background-color: #cdcde763;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.skills {
+    margin-top: 10px;
+}
+
+.skills span {
+    background-color: #78787791;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+}
+
+#about p {
+    text-align: justify;
+}
+
+.workTitle,
+.edTitle {
+    margin: 2px;
+}
+
+.edRole p,
+.workRole p {
+    margin: 2px;
+    padding: 1px;
+}
+
+.workText,
+.edText {
+    color: black;
+}
+
+#jobtitle,
+.workRole,
+.edRole,
+#duration {
+    font-style: italic;
+    font-size: small;
+}
+
+#projects p {
+    text-align: justify;
+    overflow: hidden;
+    line-height: 1.5;
+    color: #333;
+}
+
+#details {
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+    overflow: hidden;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.myText,
+header img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.workText,
+#workbag {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.edText,
+#education img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#duration {
+    float: right;
+}
+
+#education img {
+    width: 50px;
+    height: 50px;
+}
+
+#projects img {
+    width: 40px;
+    height: 40px;
+}
+
+#certifications img {
+    width: 40px;
+    height: 40px;
+}
+
+.achieveImage,
+.achieveImage1 {
+    font-size: 44px;
+    width: 40px;
+    height: 40px;
+}
+
+#workbag {
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    margin-top: 3px;
+}
+
+.project-section {
+    float: left;
+    width: 100%;
+    background-color: #cdcde763;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.project-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.project-table td {
+    width: 49%;
+    padding: 15px;
+    text-align: left;
+    text-align: justify;
+    vertical-align: middle;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+#evenColumn {
+    width: 51%;
+}
+
+.project-table tr {
+    background-color: #bce7f363;
+}
+
+.project-table td img {
+    float: left;
+    margin-right: 10px;
+}
+
+.certiImage,
+.certiImage1,
+.achieveImage,
+.achieveImage1 {
+    float: left;
+    width: 60px;
+}
+
+.certi,
+.certi1,
+.achieve,
+.achieve1 {
+    overflow: hidden;
+    line-height: 1.5;
+    color: #333;
+
+}
+
+footer {
+    background-color: #333;
+    padding: 7px 7px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+footer .left {
+    float: left;
+}
+
+footer .right {
+    float: right;
+}
+
+footer p {
+    padding: 3px;
+    color: white;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+i {
+    margin-right: 5px;
+}
+
+#mapIcon {
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+
+    #userName,
+    #jobtitle {
+        margin: 5px;
+        padding: 3px;
+    }
+
+    header {
+        padding: 5px 0;
+        font-size: small;
+    }
+
+    #jobtitle {
+        float: left;
+    }
+
+    header img {
+        float: right;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    header p,
+    img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    nav {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 4px 1px;
+    }
+
+    .row {
+        display: block;
+        margin-bottom: 3px;
+    }
+
+    .block,
+    .block2 {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .project-section {
+        width: 100%;
+    }
+
+    .project-table td {
+        width: 50%;
+        padding: 10px;
+    }
+
+    footer .left,
+    footer .right {
+        float: none;
+        text-align: center;
+    }
+}
